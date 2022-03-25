@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Smoke" parallel="Methods" thread-count="3">
+  
+  <test name="Test">
+    <classes>
+    
+	<!-- <class name="com.springernature.Smoke_Suite"/>
+	      <class name="com.springernature.Hdfc_Alert_Example"/>
+	      <class name="com.springernature.OrangeHRM_HDFClogin_Example"/>
+	      <class name="com.springernature.OrangeHRM_Navigate_Example"/>
+	      <class name="com.springernature.OrangeHRM_TestNG_Priority"/>
+    -->
+    
+      <class name="com.springernature.Parallel_Method_Execution"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

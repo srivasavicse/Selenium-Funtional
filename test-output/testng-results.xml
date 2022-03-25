@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26179" started-at="2022-03-24T03:54:00Z" finished-at="2022-03-24T03:54:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26179" started-at="2022-03-24T03:54:00Z" finished-at="2022-03-24T03:54:26Z">
+      <class name="com.springernature.WebTableE2E_Scenario">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.springernature.WebTableE2E_Scenario@185d8b6]" name="LaunchBrowser" is-config="true" duration-ms="7622" started-at="2022-03-24T03:54:00Z" finished-at="2022-03-24T03:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="Login_WebOrder()[pri:1, instance:com.springernature.WebTableE2E_Scenario@185d8b6]" name="Login_WebOrder" duration-ms="1339" started-at="2022-03-24T03:54:07Z" finished-at="2022-03-24T03:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_WebOrder -->
+        <test-method status="PASS" signature="CreateOrder_UpdateOrder_DeleteOrder()[pri:2, instance:com.springernature.WebTableE2E_Scenario@185d8b6]" name="CreateOrder_UpdateOrder_DeleteOrder" duration-ms="4355" started-at="2022-03-24T03:54:09Z" finished-at="2022-03-24T03:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder_UpdateOrder_DeleteOrder -->
+        <test-method status="PASS" signature="Update_Order()[pri:3, instance:com.springernature.WebTableE2E_Scenario@185d8b6]" name="Update_Order" duration-ms="6204" started-at="2022-03-24T03:54:13Z" finished-at="2022-03-24T03:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Update_Order -->
+        <test-method status="PASS" signature="Delet_order()[pri:4, instance:com.springernature.WebTableE2E_Scenario@185d8b6]" name="Delet_order" duration-ms="5425" started-at="2022-03-24T03:54:19Z" finished-at="2022-03-24T03:54:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delet_order -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.springernature.WebTableE2E_Scenario@185d8b6]" name="CloseBrowser" is-config="true" duration-ms="1200" started-at="2022-03-24T03:54:25Z" finished-at="2022-03-24T03:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.springernature.WebTableE2E_Scenario -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

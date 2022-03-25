@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Smoke]" parallel="methods">
+  <test thread-count="3" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.springernature.Parallel_Method_Execution">
+        <methods>
+          <include name="SafariTest"/>
+        </methods>
+      </class> <!-- com.springernature.Parallel_Method_Execution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

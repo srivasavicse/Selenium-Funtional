@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+      <parameter name="uname" value="Admin" />
+      <parameter name="upass" value="admin123" />
+      <groups>
+			<run>
+				<include name="smoketest" />
+				
+			</run>
+		</groups>
+    <classes>
+      <class name="com.groupTesting.group"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
